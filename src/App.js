@@ -1,21 +1,13 @@
-import './App.css';
-import { Fragment } from 'react';
+import React from 'react';
+import Home from './pages/Home';
+import { Switch, Route } from 'react-router-dom';
 
 function App() {
-  const windows = window.innerWidth;
-  if (windows > 767) {
     return (
-      <div className="desktop">
-      <h1>App disponivel apenas para celulares.</h1>
-    </div>
+        <Switch>
+          <Route exact path="/" component={ Home } />
+        </Switch>
     );
-  } else {
-    return (
-      <div className="mobile">
-        <h1>App Kodokan</h1>
-      </div>
-    );
-  };
 }
 
 export default App;
