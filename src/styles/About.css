@@ -1,0 +1,40 @@
+.academia-interior {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 67px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+.modalidades {
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.modalidades-last {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+.staff {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.contact {
+  margin-left: 12%;
+  margin-right: 12%;
+}
